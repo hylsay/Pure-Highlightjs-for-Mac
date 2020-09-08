@@ -8,3 +8,6 @@ pre {
 pre code {
     font-family:  Consolas, Monaco, monospace !important;
 }
+.toolbar {
+    font-size: 14px;
+}
