@@ -127,7 +127,7 @@ pre[class*="language-"].line-numbers {
 	position: relative;
 	padding-left: 3.8em;
 	counter-reset: linenumber;
-	max-height:650px; /*可以修改代码展示高度*/
+	max-height:650px; /*锟斤拷锟斤拷锟睫改达拷锟斤拷展示锟竭讹拷*/
 }
 
 pre[class*="language-"].line-numbers > code {
@@ -173,7 +173,7 @@ div.code-toolbar {
 div.code-toolbar > .toolbar {
 	position: absolute;
 	top: .5em;
-	right: .2em;
+	right: 2em;
 	transition: opacity 0.3s ease-in-out;
 	opacity: 0;
 }
@@ -229,7 +229,7 @@ div.code-toolbar > .toolbar span:focus {
 
 /**/
 pre[class*="language-"].line-numbers {
-    padding-top:40px; /*为了加语言导航条*/
+    padding-top:40px; /*为锟剿硷拷锟斤拷锟皆碉拷锟斤拷锟斤拷*/
 	line-height:1;
 }
 
