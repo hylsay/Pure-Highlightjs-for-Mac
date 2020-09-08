@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Pure Highlightjs
-Plugin URI: https://www.mobanweb.com/298.html
-Description: 优模板优化WordPress MAC风格代码高亮插件，支持 N 多种语言高亮 提供多种主题通用适配。
-Author: 优模板
+Plugin URI: https://aoaoao.info/868.html
+Description: 优化WordPress MAC风格代码高亮插件，支持 N 多种语言高亮 提供多种主题通用适配。
+Author: hylsay
 Version: 4.0.1
-Author URI: https://www.mobanweb.com/298.html
+Author URI: https://aoaoao.info/868.html
 License: MIT
 */
 
