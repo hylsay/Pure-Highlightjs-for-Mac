@@ -1,0 +1,289 @@
+/* PrismJS 1.14.0
+https://prismjs.com/download.html#themes=prism-okaidia&plugins=line-numbers+toolbar+copy-to-clipboard */
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+
+pre[class*="language-"].line-numbers {
+	position: relative;
+	padding-left: 3.8em;
+	counter-reset: linenumber;
+	max-height:650px; /*可以修改代码展示高度*/
+}
+
+pre[class*="language-"].line-numbers > code {
+	position: relative;
+	white-space: inherit;
+}
+
+.line-numbers .line-numbers-rows {
+	position: absolute;
+	pointer-events: none;
+	top: 0;
+	font-size: 100%;
+	left: -3.8em;
+	width: 3em; /* works for line-numbers below 1000 lines */
+	letter-spacing: -1px;
+	border-right: 1px solid #999;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+}
+
+	.line-numbers-rows > span {
+		pointer-events: none;
+		display: block;
+		counter-increment: linenumber;
+	}
+
+		.line-numbers-rows > span:before {
+			content: counter(linenumber);
+			color: #999;
+			display: block;
+			padding-right: 0.8em;
+			text-align: right;
+		}
+
+div.code-toolbar {
+	position: relative;
+}
+
+div.code-toolbar > .toolbar {
+	position: absolute;
+	top: .3em;
+	right: .2em;
+	transition: opacity 0.3s ease-in-out;
+	opacity: 0;
+}
+
+div.code-toolbar:hover > .toolbar {
+	opacity: 1;
+}
+
+div.code-toolbar > .toolbar .toolbar-item {
+	display: inline-block;
+}
+
+div.code-toolbar > .toolbar a {
+	cursor: pointer;
+}
+
+div.code-toolbar > .toolbar button {
+	background: none;
+	border: 0;
+	color: inherit;
+	font: inherit;
+	line-height: normal;
+	overflow: visible;
+	padding: 0;
+	-webkit-user-select: none; /* for button */
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+div.code-toolbar > .toolbar a,
+div.code-toolbar > .toolbar button,
+div.code-toolbar > .toolbar span {
+	color: #bbb;
+	font-size: .8em;
+	padding: 0 .5em;
+	background: #f5f2f0;
+	background: rgba(224, 224, 224, 0.2);
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+	border-radius: .5em;
+}
+
+div.code-toolbar > .toolbar a:hover,
+div.code-toolbar > .toolbar a:focus,
+div.code-toolbar > .toolbar button:hover,
+div.code-toolbar > .toolbar button:focus,
+div.code-toolbar > .toolbar span:hover,
+div.code-toolbar > .toolbar span:focus {
+	color: inherit;
+	text-decoration: none;
+}
+
+/**/
+pre[class*="language-"].line-numbers {
+    padding-top:40px; /*为了加语言导航条*/
+	line-height:1;
+}
+
+.pure-highlightjs[class*="language-"]:before {
+    text-transform: uppercase;
+	color:#0099FF;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    padding: 0 80px;
+    text-indent: 15px;
+    float: left;
+}
+
+.pure-highlightjs.language-none:before{content: 'txt';}
+.pure-highlightjs.language-php:before{content: 'php';}
+.pure-highlightjs.language-css:before{content: 'css';}
+.pure-highlightjs.language-markup:before{content: 'markup';}
+.pure-highlightjs.language-xml:before{content: 'xml';}
+.pure-highlightjs.language-html:before{content: 'html';}
+.pure-highlightjs.language-mathml:before{content: 'mathml';}
+.pure-highlightjs.language-svg:before{content: 'svg';}
+.pure-highlightjs.language-clike:before{content: 'clike';}
+.pure-highlightjs.language-javascript:before{content: 'javascript';}
+.pure-highlightjs.language-js:before{content: 'js';}
+.pure-highlightjs.language-c:before{content: 'c';}
+.pure-highlightjs.language-bash:before{content: 'bash';}
+.pure-highlightjs.language-shell:before{content: 'shell';}
+.pure-highlightjs.language-cpp:before{content: 'cpp';}
+.pure-highlightjs.language-diff:before{content: 'diff';}
+.pure-highlightjs.language-markup-templating:before{content: 'markup-templating';}
+.pure-highlightjs.language-git:before{content: 'git';}
+.pure-highlightjs.language-java:before{content: 'java';}
+.pure-highlightjs.language-json:before{content: 'json';}
+.pure-highlightjs.language-jsonp:before{content: 'jsonp';}
+.pure-highlightjs.language-markdown:before{content: 'markdown';}
+.pure-highlightjs.language-objectivec:before{content: 'objectivec';}
+.pure-highlightjs.language-sql:before{content: 'sql';}
+.pure-highlightjs.language-python:before{content: 'python';}
+
+.pure-highlightjs[class*="language-"]:after {
+    content: " ";
+    position: absolute;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #fc625d;
+    width: 12px;
+    height: 12px;
+    top: 0;
+    left: 20px;
+    margin-top: 13px;
+    -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+    box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+}

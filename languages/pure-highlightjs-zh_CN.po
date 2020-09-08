@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pure Highlightjs\n"
+"POT-Creation-Date: 2018-06-20 20:27+0800\n"
+"PO-Revision-Date: 2018-06-20 20:27+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: pure-highlightjs.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: pure-highlightjs.php:53 views/settings.php:2
+msgid "Settings"
+msgstr "设置"
+
+#: pure-highlightjs.php:84
+msgid "Code Insert"
+msgstr "插入代码"
+
+#: pure-highlightjs.php:85
+msgid "Language"
+msgstr "语言"
+
+#: pure-highlightjs.php:86
+msgid "Source Code"
+msgstr "代码"
+
+#: pure-highlightjs.php:123
+msgid "Pure highlightjs"
+msgstr "Pure highlightjs"
+
+#: views/settings.php:8
+msgid "Theme"
+msgstr "主题"
+
+#: views/settings.php:23
+msgid "Save Changes"
+msgstr "保存更改"
+
+#. Plugin Name of the plugin/theme
+msgid "Pure Highlightjs"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://blog.sunriseydy.top/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A WordPress plugin that visually selects the code language and inserts the "
+"code in the editor, and highlights code syntax with displaying line numbers "
+"(using PrismJs)."
+msgstr ""
+"一个WordPress插件，在编辑器中可视化选择代码语言并插入代码，突出显示代码语法"
+"和显示行号（使用 PrismJs）。"
+
+#. Author of the plugin/theme
+msgid "sunriseydy iCodeChef"
+msgstr ""
