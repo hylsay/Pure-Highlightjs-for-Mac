@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Pure Highlightjs
+Plugin Name: Pure Highlightjs for Mac
 Plugin URI: https://aoaoao.info/868.html
 Description: 优化WordPress MAC风格代码高亮插件，支持 N 多种语言高亮 提供多种主题通用适配。
 Author: hylsay
