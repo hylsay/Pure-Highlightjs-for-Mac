@@ -235,6 +235,7 @@ div.code-toolbar > .toolbar span:focus {
 pre[class*="language-"].line-numbers {
     padding-top:40px; /*Ϊ�˼����Ե�����*/
 	line-height:1;
+	font-size: 14px;
 }
 
 .pure-highlightjs[class*="language-"]:before {
